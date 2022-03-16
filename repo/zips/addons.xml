@@ -228,7 +228,6 @@ Fix possible error on playlists window
 </addon><addon id="skin.arctic.horizon" name="Arctic Horizon" provider-name="jurialmunkey" version="0.5.75">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
-        <import addon="resource.language.th_th" version="9.0.22" />
         <import addon="script.skinshortcuts" version="0.4.0" />
         <import addon="script.skinvariables" version="0.2.3" />
         <import addon="script.image.resource.select" version="0.0.5" />
@@ -240,6 +239,7 @@ Fix possible error on playlists window
         <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
         <import addon="resource.images.moviecountryicons.maps" version="0.0.1" />
         <import addon="resource.images.arctic.waves" version="0.0.1" optional="true" />
+        <import addon="resource.language.th_th" version="9.0.22" />
     </requires>
     <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
         <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
@@ -270,7 +270,6 @@ Fix possible error on playlists window
 </addon><addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, nfm886" version="0.7.5">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
-        <import addon="resource.language.th_th" version="9.0.22" />
         <import addon="script.skinshortcuts" version="1.1.1" />
         <import addon="script.artistslideshow" version="3.3.1+matrix.1" />
         <import addon="script.image.resource.select" version="3.0.2" />
@@ -283,6 +282,7 @@ Fix possible error on playlists window
         <import addon="resource.images.weathericons.outline-hd" version="0.0.3" />
         <import addon="resource.images.weathericons.white" version="0.0.6" />
         <import addon="resource.images.moviecountryicons.maps" version="0.0.1" />
+        <import addon="resource.language.th_th" version="9.0.22" />
     </requires>
     <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
         <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
@@ -339,13 +339,13 @@ Fix possible error on playlists window
 </addon><addon id="skin.blue.twilight" version="1.1.4" name="Blue Twilight" provider-name="heppen">
   <requires>
     <import addon="xbmc.gui" version="5.15.0" />
-    <import addon="resource.language.th_th" version="9.0.22" />
     <import addon="script.skinshortcuts" version="1.1.5" />
     <import addon="plugin.video.themoviedb.helper" version="4.3.0" />
     <import addon="script.artistslideshow" version="3.3.2" />
     <import addon="script.toolbox" version="1.1.2" />
     <import addon="resource.images.studios.white" version="0.0.28" />
     <import addon="resource.images.weathericons.white" version="0.0.6" />
+    <import addon="resource.language.th_th" version="9.0.22" />
   </requires>
   <extension point="xbmc.gui.skin" debugging="false">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
@@ -373,7 +373,6 @@ Fix possible error on playlists window
 </addon><addon id="skin.cosmic" version="1.0.65" name="Cosmic" provider-name="heppen (nfm886)">
   <requires>
     <import addon="xbmc.gui" version="5.15.0" />
-    <import addon="resource.language.th_th" version="9.0.22" />
     <import addon="script.skinshortcuts" version="1.1.5" />
     <import addon="script.embuary.info" version="2.0.8" />
     <import addon="plugin.video.themoviedb.helper" version="4.3.0" />
@@ -383,6 +382,7 @@ Fix possible error on playlists window
     <import addon="resource.images.weathericons.white" version="0.0.6" />
     <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
     <import addon="resource.images.moviecountryicons.maps" version="0.0.1" />
+    <import addon="resource.language.th_th" version="9.0.22" />
   </requires>
   <extension point="xbmc.gui.skin" debugging="false">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
