@@ -418,7 +418,7 @@ Fix possible error on playlists window
             <screenshot>resources/screenshot-06.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="skin.blue.twilight" version="1.2.2" name="Blue Twilight" provider-name="heppen-dev">
+</addon><addon id="skin.blue.twilight" version="1.2.6" name="Blue Twilight" provider-name="heppen-dev">
   <requires>
     <import addon="xbmc.gui" version="5.15.0" />
     <import addon="script.skinshortcuts" version="1.1.5" />
@@ -433,7 +433,7 @@ Fix possible error on playlists window
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <news>Added floating setting button in video osd[CR]Added TopBar to home screen and movies hub[CR]Removed 19055 label from list view[CR]Changes to background overlay[CR]Fixed background overlay condition[CR]Fixed movies hub busy spinner[CR]Fixed searchlist visible condition when widgets are loading[CR]Fixed background in infodialog[CR]Fixed white poster highlight for landscape[CR]Reduced clearlogo height in Object_Item_Showcase[CR]Fixed white landscape highlight condition</news>
+    <news>Added Title to Tiles view[CR]Reduced notification dialog shadow[CR]Disabled blur and fixed watched overlay in Flix view[CR]Visual changes to DialogProcessInfo[CR]Added System.SupportsCPUUsage bool to DialogProcessInfo[CR]Changes to Flix view[CR]Enable autoscroll for plot[CR]Fixed playlist button in osd[CR]Added option to toggle blur on home screen vignette</news>
     <summary lang="en_GB">Simple. Lightweight. Elegant. That's all you need to enjoy Kodi.</summary>
     <summary lang="pl_PL">Prosto. Lekko. Elegancko. To wszystko czego potrzebujesz do rozrywki z Kodi.</summary>
     <description lang="en_GB">The skin is designed to allow the user to focus on media consumption. It provides many innovative solutions that every movie lover will appreciate.</description>
