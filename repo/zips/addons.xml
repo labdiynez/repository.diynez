@@ -247,7 +247,7 @@ Fix possible error on playlists window
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.service.rclone" name="Rclone for Android" version="1.0.0" provider-name="Fandangos">
+</addon><addon id="script.service.rclone" name="Rclone for Android" version="1.0.1" provider-name="Diynez">
 	<requires>
 		<import addon="script.module.future" version="0.17.1" />
 	</requires>
