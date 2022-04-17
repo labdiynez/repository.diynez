@@ -247,17 +247,6 @@ Fix possible error on playlists window
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.service.rclone" name="Rclone for Android" version="1.0.1" provider-name="Diynez">
-	<requires>
-		<import addon="script.module.future" version="0.17.1" />
-	</requires>
-	<extension point="xbmc.service" library="main.py">
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Run rclone when Kodi starts</summary>
-		<description lang="en_GB">This script will download the android binary and run one rclone command on startup.  You can change the command in plugin settings.</description>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-	</extension>
 </addon><addon id="script.skinshortcuts" name="Skin Shortcuts" version="2.0.1" provider-name="BigNoid, marcelveldt, SiLVO">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
